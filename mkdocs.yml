@@ -1,11 +1,6 @@
-site_name: ELIXIR Training Lesson
+site_name: ELIXIR Training Lesson Index
 nav:
     - About: index.md
-    - Course Content:
-      - "1. title of first chapter": chapters/chapter_01.md
-      - "2. title of second chapter": chapters/chapter_02.md
-      - "References": chapters/references.md
-    - "Follow up training": follow_up_training.md
 
 theme:
   name: material
@@ -20,13 +15,11 @@ theme:
     text: Lato
 
 # Repository
-repo_name: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
-repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+repo_name: elixir-europe-training/elixir-europe-training.github.io
+repo_url: https://github.com/elixir-europe-training/elixir-europe-training.github.io
 edit_uri: edit/main/docs/
 
 plugins:
-  - tags:
-      tags_file: keywords.md
   - search
   - bibtex:
       bib_file: "references.bib"

@@ -1,0 +1,152 @@
+[
+    {
+        "title": "ELIXIR-TrP-FAIR-training-handbook",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/",
+        "content": "Train-the-trainer handbook for making training materials FAIR :star: 12",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LessonTemplate-MkDocs",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplate-MkDocs/",
+        "content": "Template for ELIXIR Lessons :star: 3",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LessonTemplateInstructions-MkDocs",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/",
+        "content": "Instructions on how to use the ELIXIR Training Lesson (MkDocs) Template :star: 1",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": ".github",
+        "url": null,
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "CodeReproducibility",
+        "url": "",
+        "content": "Current URL: https://elixir-europe-training.github.io/CodeReproducibility/ :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LiterateProgrammingR-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LiterateProgrammingR-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-VersionControlR-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-VersionControlR-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LiterateProgrammingPython-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LiterateProgrammingPython-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-VersionControlPython-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-VersionControlPython-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-DocumentationR-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-DocumentationR-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-DocumentationPython-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-DocumentationPython-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-TestingPython-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TestingPython-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-TestingR-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TestingR-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-ContainersR-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-ContainersR-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-ContainersPython-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-ContainersPython-CodeRep/",
+        "content": " :star: 1",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-CICD-R-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-CICD-R-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-CICD-Python-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-CICD-Python-CodeRep/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-FAIR-Converge",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Converge/",
+        "content": " :star: 3",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-DMDS-Converge",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-DMDS-Converge/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "Training-Metrics-Database",
+        "url": "https://tango.elixir-hpc.si",
+        "content": "TMD - a database for aggregation of training metrics in ELIXIR :star: 4",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-Training-SPLASH",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/",
+        "content": " :star: 1",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-CodeRep-Example-Python",
+        "url": null,
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-TeSS",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
+        "content": "Hands-on course about efficient use of TeSS :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-FAIR-Material-By-Design",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
+        "content": " :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "elixir-europe-training.github.io",
+        "url": "https://elixir-europe-training.github.io/",
+        "content": "Index of lessons on elixir-europe-training :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    }
+]
