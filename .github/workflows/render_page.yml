@@ -13,28 +13,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
     - run: |
         pip install requests
+        pip install -r requirements.txt
         python scripts/parse_gh_api.py
-    - name: Update Repo Info
+    - name: Update Repo List
       uses: EndBug/add-and-commit@v9
       with:
-        message: "Update repo info"
+        message: "Update repo list"
         add: "docs/assets/cards/repos.json"
         committer_name: "GitHub Actions"
         committer_email: "actions@github.com"
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - run: |
-          pip install -r requirements.txt
-          mkdocs gh-deploy --force
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+    - run: |
+        mkdocs gh-deploy --force
