@@ -9,6 +9,25 @@ on:
     - cron: "0 0 * * 0"
 
 jobs:
+  update_repo_info:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: |
+        pip install requests
+        python scripts/parse_gh_api.py
+    - name: Update Repo Info
+      uses: EndBug/add-and-commit@v9
+      with:
+        message: "Update repo info"
+        add: "docs/assets/cards/repos.json"
+        committer_name: "GitHub Actions"
+        committer_email: "actions@github.com"
   deploy:
     runs-on: ubuntu-latest
     steps:
