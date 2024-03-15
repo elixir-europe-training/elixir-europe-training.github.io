@@ -6,15 +6,39 @@
         "image": "assets/images/white-orange-logo.png"
     },
     {
+        "title": "Training-Metrics-Database",
+        "url": "https://tango.elixir-hpc.si",
+        "content": "TMD - a database for aggregation of training metrics in ELIXIR :star: 4",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
         "title": "ELIXIR-TrP-LessonTemplate-MkDocs",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplate-MkDocs/",
         "content": "Template for ELIXIR Lessons :star: 3",
         "image": "assets/images/white-orange-logo.png"
     },
     {
+        "title": "ELIXIR-TrP-FAIR-Converge",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Converge/",
+        "content": " :star: 3",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
         "title": "ELIXIR-TrP-LessonTemplateInstructions-MkDocs",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/",
         "content": "Instructions on how to use the ELIXIR Training Lesson (MkDocs) Template :star: 1",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-ContainersPython-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-ContainersPython-CodeRep/",
+        "content": " :star: 1",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-Training-SPLASH",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/",
+        "content": " :star: 1",
         "image": "assets/images/white-orange-logo.png"
     },
     {
@@ -84,12 +108,6 @@
         "image": "assets/images/white-orange-logo.png"
     },
     {
-        "title": "ELIXIR-TrP-ContainersPython-CodeRep",
-        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-ContainersPython-CodeRep/",
-        "content": " :star: 1",
-        "image": "assets/images/white-orange-logo.png"
-    },
-    {
         "title": "ELIXIR-TrP-CICD-R-CodeRep",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-CICD-R-CodeRep/",
         "content": " :star: 0",
@@ -102,27 +120,9 @@
         "image": "assets/images/white-orange-logo.png"
     },
     {
-        "title": "ELIXIR-TrP-FAIR-Converge",
-        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Converge/",
-        "content": " :star: 3",
-        "image": "assets/images/white-orange-logo.png"
-    },
-    {
         "title": "ELIXIR-TrP-DMDS-Converge",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-DMDS-Converge/",
         "content": " :star: 0",
-        "image": "assets/images/white-orange-logo.png"
-    },
-    {
-        "title": "Training-Metrics-Database",
-        "url": "https://tango.elixir-hpc.si",
-        "content": "TMD - a database for aggregation of training metrics in ELIXIR :star: 4",
-        "image": "assets/images/white-orange-logo.png"
-    },
-    {
-        "title": "ELIXIR-Training-SPLASH",
-        "url": "https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/",
-        "content": " :star: 1",
         "image": "assets/images/white-orange-logo.png"
     },
     {
