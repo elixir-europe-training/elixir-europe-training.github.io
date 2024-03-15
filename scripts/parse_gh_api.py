@@ -15,6 +15,9 @@ repos = response.json()
     # 2. an item called content with the description, homepage and stargazers in a list in markdown format
     # 3. an item called 'image' that uses the file in docs/images/elixir_image.png as the image
 
+# order repo dict by stargazers_count
+repos = sorted(repos, key=lambda x: x["stargazers_count"], reverse=True)
+
 # get metadata for each repository
 metadata = []
 for repo in repos:
@@ -26,8 +29,6 @@ for repo in repos:
         "content": f"{repo['description']} :star: {repo['stargazers_count']}",
         "image": "assets/images/white-orange-logo.png"
     })
-
-metadata = sorted(metadata, key=lambda x: x["stargazer_count"])
 
 # write the metadata to a json file called docs/assets/cards/repos.json
 with open("docs/assets/cards/repos.json", "w") as f:
