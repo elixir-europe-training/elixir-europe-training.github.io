@@ -42,6 +42,12 @@
         "image": "assets/images/white-orange-logo.png"
     },
     {
+        "title": "ELIXIR-TrP-FAIR-Material-By-Design",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
+        "content": " :star: 1",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
         "title": "elixir-europe-training.github.io",
         "url": "https://elixir-europe-training.github.io/",
         "content": "Index of lessons on elixir-europe-training :star: 1",
@@ -141,12 +147,6 @@
         "title": "ELIXIR-TrP-TeSS",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
         "content": "Hands-on course about efficient use of TeSS :star: 0",
-        "image": "assets/images/white-orange-logo.png"
-    },
-    {
-        "title": "ELIXIR-TrP-FAIR-Material-By-Design",
-        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
-        "content": " :star: 0",
         "image": "assets/images/white-orange-logo.png"
     }
 ]
