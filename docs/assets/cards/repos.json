@@ -148,5 +148,11 @@
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
         "content": "Hands-on course about efficient use of TeSS :star: 0",
         "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LearningPaths-TeSS-Instructions",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LearningPaths-TeSS-Instructions/",
+        "content": "Website :star: 0",
+        "image": "assets/images/white-orange-logo.png"
     }
 ]
