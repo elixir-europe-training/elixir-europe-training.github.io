@@ -2,19 +2,19 @@
     {
         "title": "ELIXIR-TrP-FAIR-training-handbook",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/",
-        "content": "Train-the-trainer handbook for making training materials FAIR version: v1.0.0  :star: 20",
+        "content": "Train-the-trainer handbook for making training materials FAIR v1.0.0  :star: 20",
         "image": "assets/images/white-orange-logo.png"
     },
     {
         "title": "ELIXIR-TrP-LessonTemplate-MkDocs",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplate-MkDocs/",
-        "content": "Template for ELIXIR Lessons version: v1.0.0-alpha  :star: 3",
+        "content": "Template for ELIXIR Lessons v1.0.0-alpha  :star: 3",
         "image": "assets/images/white-orange-logo.png"
     },
     {
         "title": "ELIXIR-TrP-LiterateProgrammingR-CodeRep",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LiterateProgrammingR-CodeRep/",
-        "content": " version: v1.0  :star: 0",
+        "content": " v1.0  :star: 0",
         "image": "assets/images/white-orange-logo.png"
     }
 ]
