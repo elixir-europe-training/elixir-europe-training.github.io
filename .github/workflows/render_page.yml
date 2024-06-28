@@ -19,7 +19,6 @@ jobs:
       with:
         python-version: '3.x'
     - run: |
-        pip install requests
         pip install -r requirements.txt
         python scripts/parse_gh_api.py
     - name: Update Repo List

@@ -21,13 +21,24 @@ repos = sorted(repos, key=lambda x: x["stargazers_count"], reverse=True)
 # get metadata for each repository
 metadata = []
 for repo in repos:
-    if repo["description"] is None:
-        repo["description"] = ""
-    metadata.append({
-        "title": repo["name"],
-        "url": repo["homepage"],
-        "content": f"{repo['description']} :star: {repo['stargazers_count']}",
-        "image": "assets/images/white-orange-logo.png"
+    # check whether repo has releases
+    releases_url = f"https://api.github.com/repos/elixir-europe-training/{repo['name']}/releases"
+    releases_response = requests.get(releases_url)
+    has_release = len(releases_response.json()) > 0
+
+    if has_release:
+        # get the latest release
+        latest_release = releases_response.json()[0]
+        # get the version number
+        version = latest_release["tag_name"]
+        if repo["description"] is None:
+            repo["description"] = ""
+
+        metadata.append({
+            "title": repo["name"],
+            "url": repo["homepage"],
+            "content": f"{repo['description']} {version}  :star: {repo['stargazers_count']}",
+            "image": "assets/images/white-orange-logo.png"
     })
 
 # write the metadata to a json file called docs/assets/cards/repos.json

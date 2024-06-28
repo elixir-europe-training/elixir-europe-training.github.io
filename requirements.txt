@@ -1,4 +1,5 @@
 setuptools
+requests
 mkdocs-material
 mkdocs-bibtex
 neoteroi-mkdocs
