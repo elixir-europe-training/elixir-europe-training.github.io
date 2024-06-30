@@ -16,5 +16,11 @@
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LiterateProgrammingR-CodeRep/",
         "content": " v1.0  :star: 0",
         "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-TeSS",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
+        "content": "Hands-on course about efficient use of TeSS v1.0  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
     }
 ]
