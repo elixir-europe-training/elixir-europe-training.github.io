@@ -6,6 +6,12 @@
         "image": "assets/images/white-orange-logo.png"
     },
     {
+        "title": "ELIXIR-SCO-spatial-omics",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/",
+        "content": " v1.0.0  :star: 21",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
         "title": "ELIXIR-TrP-LessonTemplate-MkDocs",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplate-MkDocs/",
         "content": "Template for ELIXIR Lessons v1.0.0-alpha  :star: 3",
