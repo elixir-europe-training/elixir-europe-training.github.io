@@ -14,7 +14,13 @@
     {
         "title": "ELIXIR-TrP-LessonTemplate-MkDocs",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplate-MkDocs/",
-        "content": "Template for ELIXIR Lessons v1.0.0-alpha  :star: 4",
+        "content": "Template for ELIXIR Lessons v1.0.0-alpha  :star: 5",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-Training-SPLASH",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/",
+        "content": " v1.1.0  :star: 4",
         "image": "assets/images/white-orange-logo.png"
     },
     {
