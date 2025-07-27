@@ -2,7 +2,7 @@
     {
         "title": "ELIXIR-SCO-spatial-omics",
         "url": "https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/",
-        "content": " v1.0.0  :star: 39",
+        "content": " v1.0.0  :star: 40",
         "image": "assets/images/white-orange-logo.png"
     },
     {
@@ -39,6 +39,12 @@
         "title": "ELIXIR-TrP-TeSS",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
         "content": "Hands-on course about efficient use of TeSS v1.0  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-Bioschemas",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-Bioschemas/",
+        "content": " v1.0.1  :star: 0",
         "image": "assets/images/white-orange-logo.png"
     }
 ]
