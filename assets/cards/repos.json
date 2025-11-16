@@ -1,0 +1,50 @@
+[
+    {
+        "title": "ELIXIR-SCO-spatial-omics",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-SCO-spatial-omics/",
+        "content": " v1.0.0  :star: 45",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-FAIR-training-handbook",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/",
+        "content": "Train-the-trainer handbook for making training materials FAIR v1.0.0  :star: 22",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LessonTemplate-MkDocs",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplate-MkDocs/",
+        "content": "Template for ELIXIR Lessons v1.0.0-alpha  :star: 5",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-Training-SPLASH",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/",
+        "content": " v1.1.0  :star: 5",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-FAIR-Material-By-Design",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
+        "content": " 2025-10-Ghent  :star: 3",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-LiterateProgrammingR-CodeRep",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-LiterateProgrammingR-CodeRep/",
+        "content": " v1.0  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-TeSS",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TeSS/",
+        "content": "Hands-on course about efficient use of TeSS v1.0  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-Bioschemas",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-Bioschemas/",
+        "content": " v1.0.1  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    }
+]
