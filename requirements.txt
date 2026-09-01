@@ -1,6 +1,6 @@
 setuptools
-requests
 mkdocs-material
 mkdocs-bibtex
 neoteroi-mkdocs
 mkdocs-video
+addbioschemas
