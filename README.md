@@ -4,7 +4,7 @@
 
 
 For instruction on how to use the template, please follow this documentation: 
-https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/
+https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-Zensical/
 
 
 **Any issues?** Contact Geert van Geest (@GeertvanGeest) 
@@ -13,28 +13,24 @@ https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-M
 
 ## If working locally
 
-This website is generated with [MkDocs](https://www.mkdocs.org/), with the theme [Material](https://squidfunk.github.io/mkdocs-material/).
+This website is generated with [Zensical](https://zensical.org), the successor to MkDocs and Material for MkDocs.
 
-To host it locally, install MkDocs:
+Clone this repository, then install the dependencies (a virtual environment is recommended):
 ```bash
-pip install mkdocs
+pip install -r requirements.txt
 ```
 
-and Material with some plugins:
+To refresh the list of repositories from the GitHub API (this is done weekly by the GitHub Action):
 ```bash
-pip install mkdocs-material
-pip install mkdocs-video
-pip install mkdocs-bibtex 
-pip install neoteroi-mkdocs
+python scripts/parse_gh_api.py
 ```
 
-Clone this repository to your local computer. Then, make the repository your current directory and type:
-
+To build or preview the site:
 ```bash
-mkdocs serve
+zensical build     # writes the static site to site/
+# or
+zensical serve     # preview at http://localhost:8000/
 ```
-
-To host it locally.
 
 Check it out with your browser at [http://localhost:8000/](http://localhost:8000/).
 

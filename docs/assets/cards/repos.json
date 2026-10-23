@@ -19,7 +19,7 @@
     },
     {
         "title": "ELIXIR-Training-SPLASH",
-        "url": "https://training-splash.org/",
+        "url": "https://training-splash.org",
         "content": " v1.3.0  :star: 5",
         "image": "assets/images/white-orange-logo.png"
     },
@@ -27,6 +27,18 @@
         "title": "ELIXIR-TrP-FAIR-Material-By-Design",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-Material-By-Design/",
         "content": " 2025-10-Ghent  :star: 3",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-GOBLET-Train-the-Trainer",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-GOBLET-Train-the-Trainer/",
+        "content": " v1.0.0  :star: 3",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-ELITMa",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-ELITMa/",
+        "content": " ELITMa-v1.0.0  :star: 2",
         "image": "assets/images/white-orange-logo.png"
     },
     {
@@ -45,6 +57,24 @@
         "title": "ELIXIR-TrP-Bioschemas",
         "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-Bioschemas/",
         "content": " v1.0.1  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-Foundations-LessonTemplate",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-Foundations-LessonTemplate",
+        "content": " pre-v1.0.0  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-KG-training-metadata",
+        "url": null,
+        "content": " v0.0.4-beta  :star: 0",
+        "image": "assets/images/white-orange-logo.png"
+    },
+    {
+        "title": "ELIXIR-TrP-TtT-Using-LMSs-eLPs-for-Training",
+        "url": "https://elixir-europe-training.github.io/ELIXIR-TrP-TtT-Using-LMSs-eLPs-for-Training/",
+        "content": "Module 1: Practical application of training skills in a digital environment by ELIXIR GOBLET-Train-the-Trainer v1.0  :star: 0",
         "image": "assets/images/white-orange-logo.png"
     }
 ]

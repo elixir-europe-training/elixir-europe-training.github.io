@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 
@@ -5,10 +6,20 @@ import json
 # this includes the repository name, the description, the website and the number of stars
 # the metadata is written to a json file called "repos.json"
 
+# authenticate if a token is available (raises the API rate limit from 60 to 5000 requests/hour)
+headers = {}
+if os.environ.get("GITHUB_TOKEN"):
+    headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+
 # get the list of repositories in the organization
-url = "https://api.github.com/orgs/elixir-europe-training/repos"
-response = requests.get(url)
-repos = response.json()
+# the API returns at most 100 repositories per page, so follow the pagination links
+url = "https://api.github.com/orgs/elixir-europe-training/repos?per_page=100"
+repos = []
+while url:
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    repos.extend(response.json())
+    url = response.links.get("next", {}).get("url")
 
 # create a list of dicts that each as three items:
     # 1. an item called 'title' with the name of the repository
@@ -23,7 +34,8 @@ metadata = []
 for repo in repos:
     # check whether repo has releases
     releases_url = f"https://api.github.com/repos/elixir-europe-training/{repo['name']}/releases"
-    releases_response = requests.get(releases_url)
+    releases_response = requests.get(releases_url, headers=headers)
+    releases_response.raise_for_status()
     has_release = len(releases_response.json()) > 0
 
     if has_release:

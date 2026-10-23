@@ -7,17 +7,19 @@ on:
   - cron:  "0 0 1 * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
 
     steps:
-      # To use this repository's private action, you must check out the repository
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1.1.9
+        uses: AndreasAugustin/actions-template-sync@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
           upstream_branch: main
